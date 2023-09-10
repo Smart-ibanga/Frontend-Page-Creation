@@ -88,7 +88,7 @@ a:hover {
     background-color: chocolate;
     transition: transform .2s;
     cursor: pointer;
-    padding: 0 25px
+    padding: 0 30px
 }
 
 .time p,
