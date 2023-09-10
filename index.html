@@ -22,13 +22,23 @@
             <h1 data-testid="slackUserName">Ibanga Smart</h1>
             <p data-testid="myTrack" class="my-Track">Frontend</p>
         </div>
-        <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek">Current Day of the Week: </p>
-        <p data-testid="currentUTCTime" id="currentUTCTime">Current UTC Time: </p>
+        <div class="auto-week-and-time">
+            <div class="day-week">
+                <p>Current Day of the Week: </p>
+                <span data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></span>
+            </div>
+            <div class="time">
+                <p >Current UTC Time: </p>
+                <span data-testid="currentUTCTime" id="currentUTCTime"></span>
+            </div>
+            
+        </div>
+        
         <div class="github-info">
           <div>
             <img src="/assets/Github-logo.svg.png" alt="githhub-logo" class="githhub-logo">
           </div>
-          <a href="https://github.com/Smart-ibanga" data-testid="githubURL">Link to source code</a>
+          <a href="https://github.com/Smart-ibanga/Frontend-Page-Creation" data-testid="githubURL">Link to source code</a>
         </div>
     </div>
     <script src="script.js"></script>
