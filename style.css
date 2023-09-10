@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    justify-items: center;
+    align-items: center;
+}
+
+.profile-header{
+    background-color: chocolate;
+    color: green;
+    padding: 20px 40px;
+    border-radius: 8px 8px 0 0;
+    text-transform: capitalize;
+    font-size: 32px;
+    min-height: 3vw;
+    font-weight: 800;
+}
+
+.image-container{
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.github-info{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.githhub-logo{
+    width: 50px;
+    height: 50px;
+}

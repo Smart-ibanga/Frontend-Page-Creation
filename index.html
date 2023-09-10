@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Page Creation with Specific Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <p>Profile</p>
+        </div>
+        <div >
+            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RZEKV7J4-76c6d4dd1749-512" 
+            class="image-container" alt="Ibanga Smart" data-testid="Ibanga Smart">
+        </div>
+        <div class="userName-and-Track">
+            <h1 data-testid="slackUserName">Ibanga Smart</h1>
+            <p data-testid="myTrack" class="my-Track">Frontend</p>
+        </div>
+        <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek">Current Day of the Week: </p>
+        <p data-testid="currentUTCTime" id="currentUTCTime">Current UTC Time: </p>
+        <div class="github-info">
+          <div>
+            <img src="/assets/Github-logo.svg.png" alt="githhub-logo" class="githhub-logo">
+          </div>
+          <a href="https://github.com/Smart-ibanga" data-testid="githubURL">Link to source code</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
