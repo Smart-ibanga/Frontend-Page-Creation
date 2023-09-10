@@ -1,7 +1,6 @@
-# Interns Welcome and Task Overview
-This README provides an overview of our first task, which involves creating a frontend web page showcasing specific personal and real-time data attributes. This task will help us get familiar with HTML, CSS, and the fundamentals of web development.
 
-## HNG task Stage One: Frontend Page Creation with Specific Elements
+
+#HNG task Stage One: Frontend Page Creation with Specific Elements
 
 
 Develop and host a web page using HTML, CSS and JS that showcases specific personal and real-time data attributes. Each required element should have a specified data-testid attribute for easy identification and testing.
